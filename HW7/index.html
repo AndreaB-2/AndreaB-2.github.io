@@ -4,25 +4,39 @@
     <title> MIS 3033 HW7</title>
 
     <style>
-      #main
-      {
-          background-color:blanchedalmond;
-          width:1000px;
-          height:1000px;
-      }
-      #div1
-      {
-          background-color:antiquewhite;
-          width:1000px;
-          height:50px;
-      }
-      #div2
-      {
-          background-color:aliceblue;
-          width:400px;
-          height:300px;
-          
-      }
+        #main {
+            background-color: pink;
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #div1 {
+            background-color: antiquewhite;
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            align-items: center;
+        }
+
+        #div2 {
+            background-color: aliceblue;
+            display: flex;
+            flex-direction: row;
+           
+        }
+
+        #div3 {
+            background-color: #073c76;
+            width:1000px;
+            height:50px;
+            display:flex;
+            flex-direction:row;
+            justify-content:center;
+            align-items:center;
+
+        }
     </style>
 </head>
 
@@ -31,17 +45,46 @@
     <div id="main">
 
         <div id="div1">
-
-        </div>
-        <div id="div2">
-            <div style="width:300px;height=300px;">
-                <img src="book.jpeg"style="width:200px;"/>
+            <div style="margin-right:5px;">
+                Hi,Andrea Barcenas,
+            </div>
+            <div style="margin-right:5px;"> 
+                <img style="height:40px; border-radius:50%;" src="head2.png" />
+            </div>
+            <div style="margin-right:5px;">
+                <button>Logout</button>
             </div>
         </div>
+        <div id="div2">
+            <div style="width:300px; height:300px;">
+                <img style="width:200px;" src="book.jpg" />
+                <br />
+                <span style="font-weight:bold;">C# 10 and .NET 6</span>
+            </div>
+            <div style="width:400px;height:300px;">
+                <span style="font-weight:bold;"> $44.99</span> <br />
+                <label> Qty: </label>
+                <input type="text" />
+                <br />
+                <button>Add</button>
+            </div>
+            <div style="width:300px;background-color:cornflowerblue;height:300px;">
+                <span style="font-weight:bold;"> Total Cost: $89.98</span>
+            </div>
+
+        </div>
+        <div id="div3">
+            <span style="color:white;"> Developed by Andrea Barcenas for MIS 3033 Homework</span>
+        </div>
+
 
 
 
     </div>
+
+
+
+
 
 
 </body>
