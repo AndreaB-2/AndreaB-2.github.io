@@ -1,25 +1,177 @@
 <html>
 <head>
-    <title>MIS 3033 Exam 2 Spring 2024[Exam Code] Andrea Barcenas</title>
+    <title>MIS 3033 Exam 2 Spring 2024[USYM] Andrea Barcenas</title>
     <link rel="icon" href="static/img/head2.png" />
     <link rel="stylesheet" href="static/site.css"/>
 
     <style>
+        #main
+        {
+            
+            width:800px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        .border
+        {
+            border-style:solid;
+            border-width:1px;
+            border-color:lightgray;
+            border-radius:5px;
+        }
+        .title
+        {
+            text-transform:uppercase;
+            background-color:lightskyblue;
+            border-radius:5px;
+        }
+        #div1
+        {
+           display:flex;
+           flex-direction:row;
+           align-items:end;
+           justify-content:end;
+        }
+        #div2 
+        {
+            
+            height:80px;
+            display:flex;
+            flex-direction:row;
+            align-items:center;
+            
+        }
+        #div3
+        {
+            display:flex;
+            flex-direction:row;
+        }
+        #left3
+        {
+            width:280px;
 
+        }
+        #right31
+        {
+            width:510px;
+            height:110px;
+        }
+        #right32
+        {
+            width:510px;
+            height:160px;
+           
+        }
+        #img 
+        {
+            display: flex;
+            flex-direction: row;
+            align-items:center;
+            justify-content:center;
+        }
+        #div4
+        {
+            height:60px;
+            
+          
+            
+        }
+        .font
+        {
+            font-weight:bold;
+            font-size:20px;
+            color:grey;
+
+        }
     </style>
+
 </head>
 <body>
-    [Exam code]
-    <img src="static/img/a.svg" style="height:50px;" />
-    <img src="static/img/b.svg" style="height:50px;" />
-    <img src="static/img/css.svg" style="height:50px;" />
-    <img src="static/img/head1.png" style="height:50px;" />
-    <img src="static/img/head2.png" style="height:50px;" />
-    <img src="static/img/html.svg" style="height:50px;" />
-    <img src="static/img/javascript.svg" style="height:50px;" />
-    <img src="static/img/linkedin.png" style="height:50px;" />
-    <img src="static/img/logo.svg" style="height:50px;" />
-    <img src="static/img/sqlite.svg" style="height:50px;" />
+   
+
+    <div id="main">
+       
+       <div id="div1">
+           <div class="border" style="width:200px; height:70px; display:flex;flex-direction:column; align-items:center; justify-content:center;">
+               MIS 3033 Exam 2 <br />
+               Andrea Barcenas
+           </div>
+          
+           <div class="border"style="width: 200px; height: 70px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+               USYM
+           </div>
+       </div>
+
+       <div id="div2" class="border">
+
+           <br />
+           <img src="static/img/head2.png" style="height:60px;width:60px; border-radius:50%;" />
+           <div>Andrea Barcenas <br /> MIS Student</div> 
+           
+           <a href="https://www.linkedin.com/" target="_blank">
+              <img src="static/img/linkedin.png" style="width:30px;" />
+           </a>
+       </div>
+
+        <div id="div3" class="border">
+            <div id="left3" class="border">
+                <span class="title">recent news</span>
+                <ul>
+                    <li>Learned C#</li>
+                    <li>Learned Entity Framework</li>
+                    <li>Learned <img src="static/img/sqlite.svg" style="height:40px;" /> </li>
+
+                </ul>
+
+            </div>
+            <div>
+                <div class="border" id="right31">
+                    <span class="title">about me:</span>
+                    <br />
+                    I am  a MIS student. I like programming and Iam good at C#. I learned Entity Framework to Database Manipulations. I know HTML, CSS and I started to learn JavaScript. It is fun. Later I will learn C#.NET MVC dynamix web app development and Web API development.
+                </div>
+                <div class="border" id="right32">
+                    <span class="title">achievements </span>
+                    
+                    <div id="img">
+                        <br />
+                        <div class="border" style="display:flex; flex-direction:column; align-items:center;">
+                            <img src="static/img/html.svg" style="height:100px;" />
+                            <span>HTML</span>
+                        </div>
+                        <div class="border" style="display:flex; flex-direction:column; align-items:center;">
+                            <img src="static/img/css.svg" style="height:100px;" />
+                            <span>CSS</span>
+                        </div>
+                        <div class="border" style="display:flex; flex-direction:column; align-items:center;">
+                            <img src="static/img/javascript.svg" style="height:100px;" />
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="div4" class="border">
+            <div class="font" style="display:flex;flex-direction:column;align-items:center; justify-content:center;">
+                Developed by Andrea Barcenas for MIS 3033 Exam 2
+            </div>
+            <div style="display: flex; flex-direction: column; align-items:end;">
+                <img src="static/img/logo.svg" style="height:50px" />
+            </div>
+               
+            
+        </div>
+
+    </div>
+
+
+
+  
+   
+    
+    
+    
+    
 
 
 </body>
